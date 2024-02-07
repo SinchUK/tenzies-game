@@ -1,0 +1,28 @@
+.game_items {
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.game_item {
+    align-items: center;
+    background: #fff;
+    border-radius: 3.813px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .15);
+    color: #2b283a;
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 700;
+    height: 35.84px;
+    justify-content: center;
+    width: 35.84px;
+}
+
+.locked {
+    background: #59e391;
+}
